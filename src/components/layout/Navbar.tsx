@@ -8,24 +8,25 @@ export const Navbar: React.FC = () => {
     <nav className="w-full flex justify-between items-center px-[31px] py-[21px] max-md:px-5">
       <div className="flex items-center gap-2.5">
         <img 
-          src="https://cdn.rtbrain.app/browser/Ace_logo_118x32_1740475997_118x32.png" 
-          alt="Ace Logo" 
+          src="/pagoda.png" 
+          alt="Than Long Hoa Communal House" 
           className="h-8"
         />
+        <span className="text-[20px] text-[#080808] font-semibold font-['DM_Sans'] leading-[40px]">Đình Thần Long Hòa</span>
       </div>
       <div className="flex items-center gap-10 max-md:hidden">
-        <Link to="#" className="text-[18px] text-[#080808] font-light font-['DM_Sans'] leading-[40px]">
-          Meet Nova
+        <Link to="/" className="text-[18px] text-[#080808] font-light font-['DM_Sans'] leading-[40px]">
+          Trang chủ
         </Link>
         <Link to="#" className="text-[18px] text-[#110B53] font-semibold font-['DM_Sans'] leading-[40px]">
-          Why AI?
+          Giới thiệu 
         </Link>
         <Link to="#" className="text-[18px] text-[#080808] font-light font-['DM_Sans'] leading-[40px]">
-          FAQ
+          Liên hệ
         </Link>
       </div>
       <CustomButton className="px-[27px] py-[13px] text-[17px] leading-[19px] font-[500] font-['Lexend']">
-        Download Now
+        Tham quan
       </CustomButton>
       <button className="hidden max-md:block">
         <svg
