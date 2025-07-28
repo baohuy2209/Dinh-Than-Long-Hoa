@@ -19,21 +19,6 @@ const Footer = () => {
               Nơi lưu giữ những giá trị văn hóa, tín ngưỡng truyền thống và là biểu tượng của lịch sử 
               hào hùng dân tộc tại Thành phố Thủ Đức.
             </p>
-            
-            {/* Newsletter Subscription */}
-            <div className="mb-6">
-              <h4 className="text-lg font-semibold mb-3">Cập nhật thông tin mới nhất</h4>
-              <div className="flex space-x-2">
-                <input
-                  type="email"
-                  placeholder="Nhập email của bạn"
-                  className="flex-1 px-4 py-2 rounded-lg border border-gray-600 bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500"
-                />
-                <button className="px-6 py-2 bg-gradient-to-r from-red-600 to-amber-600 text-white rounded-lg hover:from-red-700 hover:to-amber-700 transition-all duration-300 font-semibold">
-                  Đăng ký
-                </button>
-              </div>
-            </div>
           </div>
 
           {/* Visiting Info */}
